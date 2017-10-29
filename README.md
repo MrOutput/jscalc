@@ -13,6 +13,9 @@ rafael@mroutput ~/github/jscalc $ node example.js
 3^2 = 9
 3^(2*2) = 81
 3^2*2 = 18
+pi*2^2 = 12.566370614359172
+ans+1 = 13.566370614359172
+e+2 = 4.718281828459045
 3 + 2 - 1 + (-3-3) = -2
-calcuation time: 11.684ms
+calculation time: 12.203ms
 ```

@@ -3,7 +3,7 @@ const Calculator = require("./lib/Calc");
 var calc = new Calculator();
 
 try {
-    console.time('calcuation time');
+    console.time('calculation time');
     [
         "-3 + (5-6)",
         "(3+1) + (-3-1)",
@@ -14,9 +14,12 @@ try {
         "3^2",
         "3^(2*2)",
         "3^2*2",
+        "pi*2^2",
+        "ans+1",
+        "e+2",
         "3 + 2 - 1 + (-3-3)"
     ].forEach(expr => console.log("%s = %s", expr, calc.exec(expr)));
-    console.timeEnd('calcuation time');
+    console.timeEnd('calculation time');
 } catch (e) {
     console.log("unexpected token '%s'", e);
 }

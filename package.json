@@ -1,0 +1,26 @@
+{
+  "name": "@mroutput/jscalc",
+  "version": "1.0.2",
+  "description": "JavaScript Calculator Library",
+  "main": "./lib/Calc.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrOutput/jscalc.git"
+  },
+  "keywords": [
+    "calculator",
+    "library"
+  ],
+  "author": "Rafael Cepeda",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/MrOutput/jscalc/issues"
+  },
+  "homepage": "https://github.com/MrOutput/jscalc#readme"
+}

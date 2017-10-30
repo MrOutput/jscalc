@@ -1,8 +1,25 @@
 # jscalc
 
-JavaScript Calculator
+JavaScript Calculator Library
 
+## Install
+
+```sh
+npm install @mroutput/jscalc
 ```
+
+## Usage
+
+```js
+const Calculator = require("@mroutput/jscalc");
+
+var c = new Calculator();
+var ans = c.exec("5 + 3");//8
+```
+
+## Examples
+
+```sh
 rafael@mroutput ~/github/jscalc $ node example.js 
 -3 + (5-6) = -4
 (3+1) + (-3-1) = 0

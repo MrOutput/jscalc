@@ -35,6 +35,12 @@ rafael@mroutput ~/github/jscalc $ node example.js
 pi*2^2 = 12.566370614359172
 ans+1 = 13.566370614359172
 e+2 = 4.718281828459045
+sqrt(2 + 2) = 2
+sqrt((10 + 10) * 5) = 10
+sqrt(10^2) + 2 = 12
+log(100) = 2
+ln(e^3) = 3
+3 = 3
 3 + 2 - 1 + (-3-3) = -2
-calculation time: 12.767ms
+calculation time: 14.164ms
 ```

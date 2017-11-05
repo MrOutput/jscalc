@@ -19,6 +19,12 @@ try {
         "pi*2^2",
         "ans+1",
         "e+2",
+        "sqrt(2 + 2)",
+        "sqrt((10 + 10) * 5)",
+        "sqrt(10^2) + 2",
+        "log(100)",
+        "ln(e^3)",
+        "3",
         "3 + 2 - 1 + (-3-3)"
     ].forEach(expr => console.log("%s = %s", expr, calc.exec(expr)));
     console.timeEnd('calculation time');

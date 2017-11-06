@@ -21,6 +21,7 @@ var ans = c.exec("5 + 3");//8
 
 ```sh
 rafael@mroutput ~/github/jscalc $ node example.js 
+|(5-100) / 2| = 47.5
 -3 + (5-6) = -4
 (3+1) + (-3-1) = 0
 -23 + 3 - (18 + (-3 - 8)) = -27
@@ -40,7 +41,10 @@ sqrt((10 + 10) * 5) = 10
 sqrt(10^2) + 2 = 12
 log(100) = 2
 ln(e^3) = 3
+|-3| = 3
+5-10 = -5
+|5-10| = 5
 3 = 3
 3 + 2 - 1 + (-3-3) = -2
-calculation time: 14.164ms
+calculation time: 14.683ms
 ```
